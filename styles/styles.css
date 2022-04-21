@@ -1,5 +1,6 @@
 body {
 	margin-left: 0;
+	background-color: #000000;
 }
 		
 .info-container {
@@ -21,7 +22,7 @@ body {
 	height: 100%;
 }
 
-.idiot-container video {
+.idiot-container img {
 	z-index: -100;
 			
 	width: 100%;
