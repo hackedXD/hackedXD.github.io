@@ -57,7 +57,14 @@ function openWindow(url) {
 }
 
 function proCreate() {	
+	delay(500);
 	openWindow("lol.html");
+}
+
+function delay(t, v) {
+	return new Promise((resolve) => {
+		setTimeout(resolve.bind(null, v), t);
+	});
 }
 
 function newXlt() {
